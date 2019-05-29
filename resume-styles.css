@@ -37,6 +37,13 @@ body {
 	margin-top: 5%;
 }
 
+.eph-insignia {
+	position: relative;
+	width: 50%;
+	margin-left: 25%; 
+	margin-top: 5%;
+}
+
 .column-background {
 	background-color: rgba(220, 224, 232, 75%);
 	height: 100%;

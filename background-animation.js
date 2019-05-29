@@ -3,5 +3,5 @@ $(function(){
         setInterval(function(){
             x-=1;
             $('header').css('background-position', x + 'px 0');
-        }, 10);
+        }, 50);
     })
