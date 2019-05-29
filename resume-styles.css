@@ -1,0 +1,57 @@
+header {
+	height: 20%;
+    background-image: url('tessellating-background.jpg');
+    background-repeat: repeat-x;
+}
+.header-rectangle {
+	background-color: #dce0e8;
+	width: 100%;
+	height: 50%;
+	position: relative;
+	top: 25%;
+}
+.header-title {
+	text-align: center;
+	position: relative;
+	top: 25%;
+}
+
+body {
+	background-color: #67696b;
+}
+
+.thirds {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.column-title {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.linkedin-prof-pic {
+	width: 50%;
+	margin-left: 25%; 
+	margin-top: 5%;
+}
+
+.column-background {
+	background-color: rgba(220, 224, 232, 75%);
+	height: 100%;
+	margin: 0% 5% 0% 5%;
+}
+
+.section-description {
+	text-align: left;
+	font-size: 1.2em;
+	margin:  2.5% 5% 2.5% 2.5%;
+}
+
+.section-paragraph {
+	text-align: left;
+	margin:  2.5% 5% 2.5% 2.5%;
+	padding: 0 0 0 0;
+	font-size: .8em;
+}
