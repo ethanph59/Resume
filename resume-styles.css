@@ -31,17 +31,23 @@ body {
 	margin-top: 5%;
 }
 
-.linkedin-prof-pic {
-	width: 50%;
-	margin-left: 25%; 
-	margin-top: 5%;
+#center {
+	position: relative;
 }
 
-.eph-insignia {
-	position: relative;
+#center img {
+	position: absolute;
 	width: 50%;
 	margin-left: 25%; 
 	margin-top: 5%;
+  	-webkit-transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+}
+
+#center img.top:hover {
+  opacity:0;
 }
 
 .column-background {
@@ -56,9 +62,22 @@ body {
 	margin:  2.5% 5% 2.5% 2.5%;
 }
 
+.section-subheader {
+	text-align: left;
+	font-size: 1em;
+	font-weight: bold;
+	margin:  2.5% 5% 2.5% 2.5%;
+}
 .section-paragraph {
 	text-align: left;
 	margin:  2.5% 5% 2.5% 2.5%;
+	padding: 0 0 0 0;
+	font-size: .8em;
+}
+
+.bullet-list {
+	text-align: left;
+	margin:  2.5% 5% 2.5% 10%;
 	padding: 0 0 0 0;
 	font-size: .8em;
 }
