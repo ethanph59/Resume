@@ -1,3 +1,8 @@
+	@font-face {
+    font-family: 'CooperHewitt';
+    src: url("CooperHewitt-Medium.otf") format("opentype");
+}
+
 header {
 	height: 20%;
     background-image: url('tessellating-background.jpg');
@@ -13,16 +18,17 @@ header {
 .header-title {
 	text-align: center;
 	position: relative;
-	top: 25%;
+	top: 20%;
 }
 
 body {
 	background-color: #67696b;
+	font-family: 'CooperHewitt';
 }
 
 .thirds {
 	width: 33.33%;
-	height: 100%;
+	height: 210%;
 	float: left;
 }
 
